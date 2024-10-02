@@ -13,7 +13,11 @@ export default function FitnessLandingPageFunnel() {
     <div className="min-h-screen bg-gray-100">
       {/* Hero Section with Video */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <video
+        <img
+          className="absolute w-auto min-w-full min-h-full max-w-none"
+          src="https://plus.unsplash.com/premium_photo-1670505062582-fdaa83c23c9e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+        {/* <video
           className="absolute w-auto min-w-full min-h-full max-w-none"
           autoPlay
           loop
@@ -22,7 +26,7 @@ export default function FitnessLandingPageFunnel() {
         >
           <source src="/placeholder-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
         <div className="relative z-10 text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Transform Your Body, Transform Your Life
@@ -251,7 +255,7 @@ export default function FitnessLandingPageFunnel() {
               <div key={i} className="text-center">
                 <div className="relative">
                   <img
-                    src={`/placeholder.svg?height=300&width=400`}
+                    src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwstCoDnS1kuJXrd4BQ4AEztqPbj7FNM9eEw&s`}
                     alt={`Before and After ${i}`}
                     className="w-full h-auto rounded-lg shadow-md"
                   />
